@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>GTV 視頻下載</title>
+  <title>GTV | Gettr 視頻下載</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -16,8 +16,8 @@
   <div ng-app="myApp" ng-controller="myCtrl">
 
     <div class="mt-4 text-center">
-      <h1>GTV 視頻下載</h1>
-      <input type="text" ng-model="url" ng-change="detect()" placeholder="輸入視頻地址" class="form-control form-control-lg" ng-disabled="mu.downloading"><br>
+      <h1>GTV | Gettr 視頻下載</h1>
+      <input type="text" ng-model="url" ng-change="detect()" placeholder="輸入分享地址 Enter the share link here" class="form-control form-control-lg" ng-disabled="mu.downloading"><br>
       <div ng-if="error" class="text-danger">{{error}}</div>
       <div ng-if="mu.error" class="text-danger">{{mu.error}}</div>
       <div ng-if="mu.tips">{{mu.tips}}</div>
@@ -31,7 +31,8 @@
         <p>
           <small class="text-muted ">
             <div>如何獲取視頻地址</div>
-            <div>點擊視頻中的分享按鈕(Share)，地址會被自動複製，然後把它粘貼在上面</div>
+            <div>點擊(視頻或帖子)中的分享按鈕(Share)，地址會被自動複製，然後把它粘貼在上面</div>
+            <strong>傳播真相 保護版權</strong>
           </small>
         </p>
       </div>
